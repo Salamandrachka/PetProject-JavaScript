@@ -1,0 +1,26 @@
+
+.list-slider{
+    overflow: hidden;
+}
+ .person{
+ position: absolute;
+    width: 1160px;
+}
+.small-slider{
+    margin-top: 420px;
+    z-index: 123;
+} 
+.small-headshot.active{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.person{
+    opacity: 0;
+    transform: translateY(250px);
+    transition: 0.5s;
+}
+.person.active{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 0.5s;
+} 
